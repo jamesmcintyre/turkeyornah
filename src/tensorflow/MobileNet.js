@@ -123,7 +123,7 @@ export default class MobileNet{
             label: classItem.className.split(',')[0]
           }
         });
-        const highProbabilityResults = formatted.filter((classItem) => classItem.probability > 70);
+        const highProbabilityResults = formatted.filter((classItem) => classItem.probability > 85);
         const result = highProbabilityResults.length > 0 ? highProbabilityResults[0] : null;
         this.store.identified = !!result;
         if (result) {
