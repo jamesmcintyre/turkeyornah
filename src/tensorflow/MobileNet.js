@@ -5,10 +5,8 @@ import * as tf from '@tensorflow/tfjs';
 // const MOBILENET_MODEL_PATH =
 //     // tslint:disable-next-line:max-line-length
 //     'https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_0.25_224/model.json';
-// const MODEL_URL = 'https://s3-us-west-1.amazonaws.com/theturkeyapp/tensorflowjs_model.pb';
-// const WEIGHTS_URL = 'https://s3-us-west-1.amazonaws.com/theturkeyapp/weights_manifest.json';
-const MODEL_URL = 'https://turkeyornah.com/tensorflowjs_model.pb';
-const WEIGHTS_URL = 'https://turkeyornah.com/weights_manifest.json';
+const MODEL_URL = 'https://s3-us-west-1.amazonaws.com/theturkeyapp/tensorflowjs_model.pb';
+const WEIGHTS_URL = 'https://s3-us-west-1.amazonaws.com/theturkeyapp/weights_manifest.json';
 
 const IMAGENET_CLASSES = {
   0: 'green',
