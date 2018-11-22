@@ -14,7 +14,8 @@ const facingModePattern = /rear|back|environment/ig;
 const mobileConstraints = {
   // width: 1280,
   // height: 720,
-  facingMode: { exact: "environment" }
+  // facingMode: { exact: "environment" }
+  facingMode: "environment"
 };
 const desktopConstraints = {
   // width: 1280,
